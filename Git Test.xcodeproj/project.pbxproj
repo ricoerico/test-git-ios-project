@@ -21,6 +21,7 @@
 		1F83AB351994F22B00FA516B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F83AB171994F22B00FA516B /* UIKit.framework */; };
 		1F83AB3D1994F22B00FA516B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1F83AB3B1994F22B00FA516B /* InfoPlist.strings */; };
 		1F83AB3F1994F22B00FA516B /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F83AB3E1994F22B00FA516B /* Git_TestTests.m */; };
+		1F83AB4A1994F5F900FA516B /* TestClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F83AB491994F5F900FA516B /* TestClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		1F83AB3A1994F22B00FA516B /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		1F83AB3C1994F22B00FA516B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1F83AB3E1994F22B00FA516B /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		1F83AB481994F5F900FA516B /* TestClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TestClass.h; path = ../TestClass.h; sourceTree = "<group>"; };
+		1F83AB491994F5F900FA516B /* TestClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TestClass.m; path = ../TestClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +115,8 @@
 		1F83AB191994F22B00FA516B /* Git Test */ = {
 			isa = PBXGroup;
 			children = (
+				1F83AB481994F5F900FA516B /* TestClass.h */,
+				1F83AB491994F5F900FA516B /* TestClass.m */,
 				1F83AB221994F22B00FA516B /* AppDelegate.h */,
 				1F83AB231994F22B00FA516B /* AppDelegate.m */,
 				1F83AB251994F22B00FA516B /* Main.storyboard */,
@@ -249,6 +254,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F83AB4A1994F5F900FA516B /* TestClass.m in Sources */,
 				1F83AB2A1994F22B00FA516B /* ViewController.m in Sources */,
 				1F83AB241994F22B00FA516B /* AppDelegate.m in Sources */,
 				1F83AB201994F22B00FA516B /* main.m in Sources */,
